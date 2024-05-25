@@ -1,0 +1,303 @@
+@media screen and (min-width: 1020px) {
+    #navbar {
+        top: 0;
+        width: 100%;
+        height: 6vh;
+        background-color: #E97923;
+        margin-bottom: 5vh;
+    }
+
+    .body-card {
+        width: 50%;
+        padding: 2em;
+        margin: auto;
+        font-size: .7em;
+        font-family: 'Tiro Kannada', serif;
+        text-align: center;
+        background-color: rgb(85,33,137);
+        color: white;
+        margin-top: 7vh;
+        border-radius: 10px;
+        border-style: ridge;
+        border-color: grey;
+        border-width: 5px;
+    }
+    
+    ul {
+        width: 100%;
+        display: block;
+        float: left;
+        list-style-type: none;
+        text-align: left;
+        margin-bottom: 2em; 
+    }
+    
+    li {
+        display: inline;
+        padding: 2em;
+        font-size: 2em;
+        font-family: 'Asap', sans-serif;
+    }
+    
+    li:hover {
+        text-transform: uppercase;
+    }
+
+    @keyframes body-background {
+        0% {background-color: black}
+        100% {background-color: white}
+    }
+    
+    .body-container {
+        font-family: 'Tiro Kannada', serif;;
+        font-size: 1.7em;
+        text-align: center;
+        padding: 1em;
+        width: 100%;
+        height: 94vh;
+        animation: body-background 4s 1;
+        margin-top: 3.5vh;
+        color: rgb(60,60,60);
+        
+    }
+    
+    .projects-container {
+        display: block;
+        text-align: center;
+    }
+    
+    .resume-container {
+        max-width: 50vw;
+        min-height: 80vh;
+        max-height: 100vh;
+        margin-top: 9vh;
+        margin-right: auto;
+        margin-left: auto;        
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .project-card {
+        width: 12vw;
+    }
+    .card-link {
+        text-decoration: none;
+        color: rgb(85,33,137);
+    }
+    .skills-container {
+        margin-top: 7vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .skills-list {
+        width: 30rem;
+        background-color: #30728B;
+        color: white;
+        border: .3em solid;
+        border-color: #E97923;
+        border-radius: 2em;
+        padding: 1em;
+    }
+
+}
+
+@media screen and (min-width: 350px) and (max-width: 1019px) {
+    #navbar {
+        top: 0;
+        width: 100vw;
+        height: 6vh;
+        background-color: #E97923;
+    }
+    
+    ul {
+        width: 100%;
+        display: block;
+        float: left;
+        list-style-type: none;
+        text-align: left;
+        color: rgb(85, 33, 137);
+        padding-top: .7em;
+        margin-bottom: 2em; 
+    }
+    
+    li {
+        display: inline;
+        padding-right: 1em;
+        padding-left: 1em;
+        font-size: 4vw;
+        font-family: 'Asap', sans-serif;
+    }
+
+    @keyframes body-background {
+        0% {background-color: black}
+        100% {background-color: white}
+    }
+    
+    
+    .body-container {
+        align-items: center;
+        padding: 1em;
+        width: 100%; 
+        height: 95vh;
+        margin-top: 3.2vh;
+        animation: body-background 4s 1;
+    }
+    
+    .body-card {
+        width: 90%;
+        margin: auto;
+        font-size: .7em;
+        font-family: 'Tiro Kannada', serif;
+        text-align: center;
+        background-color: rgb(85,33,137);
+        color: white;
+        margin-top: 7vh;
+        border-radius: 10px;
+        border-style: ridge;
+        border-color: grey;
+        border-width: 4px;
+        box-shadow: 5px 5px lightgrey;
+    }
+    
+    .projects-container {
+        margin-top: 5vh;
+        padding: .8em;
+        display: block;
+        text-align: center;
+    }
+    .card-link {
+        text-decoration: none;
+        color: rgb(85,33,137);
+    }
+    
+    .resume-container {
+        width: 100%;
+        margin-top: 8vh;
+        margin-right: auto;
+        margin-left: auto;
+        padding: .8em;
+        display: block-inline;
+    }
+    .skills-container {
+        margin-top: 7vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .skills-list {
+        width: 30rem;
+        background-color: #30728B;
+        color: white;
+        border: .3em solid;
+        border-color: #E97923;
+        border-radius: 2em;
+        padding: 1em;
+    }
+    .skills-list h1 {
+        font-size: 4vw;
+    }
+    .skills-list h3 {
+        font-size: 3vw;
+    }
+}
+
+@media screen and (max-width: 349px) {
+    #navbar {
+        top: 0;
+        width: 100vw;
+        height: 6vh;
+        background-color: #E97923;
+    }
+    
+    ul {
+        width: 100%;
+        display: block;
+        float: left;
+        list-style-type: none;
+        text-align: left;
+        color: rgb(85, 33, 137);
+        padding-top: .7em;
+        margin-bottom: 2em; 
+    }
+    
+    li {
+        display: inline;
+        padding-right: 1em;
+        padding-left: 1em;
+        font-size: 4vw;
+        font-family: 'Asap', sans-serif;
+    }
+    
+    @keyframes body-background {
+        0% {background-color: black}
+        100% {background-color: white}
+    }
+    
+    .body-container {
+        align-items: center;
+        padding: 1em;
+        width: 100%; 
+        height: 95vh;
+        margin-top: 2.2vh;
+        animation: body-background 4s 1;
+    }
+    
+    .body-card {
+        width: 96%;
+        margin: auto;
+        font-size: .6em;
+        font-family: 'Tiro Kannada', serif;
+        text-align: center;
+        background-color: rgb(85,33,137);
+        color: white;
+        margin-top: 7vh;
+        border-radius: 10px;
+        border-style: ridge;
+        border-color: grey;
+        border-width: 4px;
+        box-shadow: 5px 5px lightgrey;
+    }
+    
+    .projects-container {
+        margin-top: 8vh;
+        padding: .8em;
+        display: block;
+        text-align: center;
+    }
+    .card-link {
+        text-decoration: none;
+        color: rgb(85,33,137);
+    }
+    
+    .resume-container {
+        width: 100%;
+        margin-top: 8vh;
+        margin-right: auto;
+        margin-left: auto;
+        padding: .8em;
+        display: block-inline;
+    }
+    .skills-container {
+        margin-top: 7vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .skills-list {
+        width: 30rem;
+        background-color: #30728B;
+        color: white;
+        border: .3em solid;
+        border-color: #E97923;
+        border-radius: 2em;
+        padding: 1em;
+    }
+    .skills-list h1 {
+        font-size: 4vw;
+    }
+    .skills-list h3 {
+        font-size: 3vw;
+    }
+
+}
